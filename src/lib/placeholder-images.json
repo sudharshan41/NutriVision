@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "grilled-salmon-salad",
+      "description": "A healthy grilled salmon salad with fresh vegetables.",
+      "imageUrl": "https://images.unsplash.com/photo-1690042837457-6746c3b78cad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzYWxtb24lMjBzYWxhZHxlbnwwfHx8fDE3NjEzMjU5MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "salmon salad"
+    },
+    {
+      "id": "quinoa-bowl",
+      "description": "A vibrant quinoa bowl with black beans, corn, and avocado.",
+      "imageUrl": "https://images.unsplash.com/photo-1679279726937-122c49626802?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxxdWlub2ElMjBib3dsfGVufDB8fHx8MTc2MTI3OTUwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "quinoa bowl"
+    },
+    {
+      "id": "chicken-stir-fry",
+      "description": "Chicken stir-fry with a variety of colorful vegetables.",
+      "imageUrl": "https://images.unsplash.com/photo-1757715376287-90f24dac4593?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaGlja2VuJTIwc3Rpci1mcnl8ZW58MHx8fHwxNzYxMjU1NjAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken stir-fry"
+    },
+    {
+      "id": "avocado-toast",
+      "description": "Avocado toast with a sprinkle of red pepper flakes.",
+      "imageUrl": "https://images.unsplash.com/photo-1505575156881-dd15ae275636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxhdm9jYWRvJTIwdG9hc3R8ZW58MHx8fHwxNzYxMjc1MTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "avocado toast"
+    },
+    {
+      "id": "lentil-soup",
+      "description": "A hearty and warming bowl of lentil soup.",
+      "imageUrl": "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bGVudGlsJTIwc291cHxlbnwwfHx8fDE3NjEzMDg1NjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lentil soup"
+    },
+    {
+      "id": "greek-yogurt-parfait",
+      "description": "Greek yogurt parfait with berries and granola.",
+      "imageUrl": "https://images.unsplash.com/photo-1600648832373-6f5e75b71ce3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8eW9ndXJ0JTIwcGFyZmFpdHxlbnwwfHx8fDE3NjEyMjgyMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "yogurt parfait"
+    }
+  ]
 }
