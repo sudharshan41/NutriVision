@@ -3,7 +3,7 @@ import {
   SidebarProvider,
   Sidebar,
   SidebarInset,
-} from '@/components/ui/sidebar';
+} from '@/components/sidebar';
 
 export default function AppLayout({
   children,

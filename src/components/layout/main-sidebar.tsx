@@ -10,7 +10,7 @@ import {
   SidebarFooter,
   SidebarTrigger,
   SidebarContent,
-} from '@/components/ui/sidebar';
+} from '@/components/sidebar';
 import { Logo } from '@/components/icons/logo';
 import {
   LayoutDashboard,
