@@ -19,7 +19,6 @@ import {
   User,
 } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
-import { Button } from '@/components/ui/button';
 
 const navItems = [
   { href: '/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
@@ -43,8 +42,9 @@ export default function MainSidebar() {
         <SidebarMenu>
           {navItems.map((item) => (
             <SidebarMenuItem key={item.href}>
-              <Link href={item.href} legacyBehavior passHref>
+              <Link href={item.href} passHref>
                 <SidebarMenuButton
+                  as="a"
                   isActive={pathname === item.href}
                   tooltip={{ children: item.label, side: 'right' }}
                 >
