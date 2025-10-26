@@ -58,7 +58,9 @@ Allergies: {{{allergies}}}
 
 Consider the user's health conditions, goals, and allergies to provide safe and effective meal options.  Explain why each meal is appropriate given the users input.  Consider any potential food interactions.
 
-Meal Recommendations:`, // No need to fetch the date, it is not always required, and it is not something the LLM decides to retrieve.
+Present the most important recommendations as a bulleted list.
+
+Meal Recommendations:`,
 });
 
 const personalizedMealRecommendationsFlow = ai.defineFlow(
