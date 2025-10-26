@@ -58,7 +58,6 @@ export default function MainSidebar() {
       <SidebarFooter>
         <Separator className="my-2" />
         <div className="flex flex-col gap-2 p-2 text-sm text-muted-foreground group-data-[state=collapsed]:hidden">
-            <span>&copy; 2024 NutriVision</span>
             <span className='text-xs'>Your AI Nutrition Assistant</span>
         </div>
       </SidebarFooter>
