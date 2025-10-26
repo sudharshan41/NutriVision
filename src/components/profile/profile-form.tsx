@@ -22,11 +22,11 @@ import { Save } from "lucide-react";
 import { useEffect } from "react";
 
 const profileFormSchema = z.object({
-  healthConditions: z.string().min(2, {
-    message: "Health conditions must be at least 2 characters.",
+  healthConditions: z.string().min(5, {
+    message: "Health conditions must be at least 5 characters.",
   }),
-  goals: z.string().min(2, {
-    message: "Goals must be at least 2 characters.",
+  goals: z.string().min(5, {
+    message: "Goals must be at least 5 characters.",
   }),
   allergies: z.string().transform((val) => val.split(',').map(s => s.trim()).filter(Boolean)),
 });
