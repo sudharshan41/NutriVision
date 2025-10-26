@@ -58,7 +58,7 @@ Allergies: {{{allergies}}}
 
 Consider the user's health conditions, goals, and allergies to provide safe and effective meal options.  Explain why each meal is appropriate given the users input.  Consider any potential food interactions.
 
-Present only the most important recommendations in 4 to 5 bullet points.
+Present only the most important recommendations in 2 to 3 bullet points.
 
 Meal Recommendations:`,
 });
