@@ -28,7 +28,10 @@ const profileFormSchema = z.object({
   goals: z.string().min(5, {
     message: "Goals must be at least 5 characters.",
   }),
-  allergies: z.string().transform((val) => val.split(',').map(s => s.trim()).filter(Boolean)),
+  allergies: z.preprocess(
+    (val) => (Array.isArray(val) ? val.join(", ") : String(val)),
+    z.string().transform((val) => val.split(',').map(s => s.trim()).filter(Boolean))
+  ),
 });
 
 type ProfileFormValues = z.infer<typeof profileFormSchema>;
@@ -112,7 +115,7 @@ export function ProfileForm() {
             <FormItem>
               <FormLabel>Allergies</FormLabel>
               <FormControl>
-                <Input placeholder="e.g., Peanuts, Gluten, Shellfish" {...field} onChange={e => field.onChange(e.target.value)} value={Array.isArray(field.value) ? field.value.join(', ') : ''} />
+                <Input placeholder="e.g., Peanuts, Gluten, Shellfish" {...field} />
               </FormControl>
               <FormDescription>
                 List any food allergies you have, separated by commas.
