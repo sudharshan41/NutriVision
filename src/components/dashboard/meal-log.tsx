@@ -1,6 +1,5 @@
 "use client";
 
-import Image from 'next/image';
 import type { MealLogEntry } from '@/lib/types';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -21,14 +20,6 @@ export default function MealLog({ meals }: MealLogProps) {
             <div className="space-y-4">
               {meals.map((entry, index) => (
                 <div key={index} className="flex items-center gap-4">
-                  <Image
-                    src={entry.recipe.imageUrl}
-                    alt={entry.recipe.name}
-                    width={40}
-                    height={40}
-                    data-ai-hint={entry.recipe.imageHint}
-                    className="rounded-md object-cover"
-                  />
                   <div className="flex-1">
                     <p className="font-medium">{entry.recipe.name}</p>
                     <p className="text-sm text-muted-foreground">{entry.recipe.calories} kcal</p>
