@@ -16,6 +16,7 @@ import { useIsMobile } from "@/hooks/use-mobile"
 interface SidebarContextProps {
   isExpanded: boolean
   isMobile: boolean
+  
   collapsible: "icon" | "button"
   toggle: () => void
   close: () => void
